@@ -1,0 +1,9 @@
+.chipSuccess {
+  color: green;
+  box-shadow: var(--box-shadow-success);
+}
+
+.chipUnsuccess {
+  color: red;
+  box-shadow: var(--box-shadow-unsuccess);
+}

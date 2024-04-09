@@ -1,0 +1,6 @@
+.text {
+  color: var(--color-turquoise-light);
+  margin: 0;
+  margin-bottom: var(--spacing-medium);
+  font-size: 20px;
+}

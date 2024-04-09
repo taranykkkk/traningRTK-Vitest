@@ -1,0 +1,9 @@
+.iconSuccess {
+  transition: all 0.4s ease;
+  background-color: green;
+}
+
+.iconUnsuccess {
+  transition: all 0.4s ease;
+  background-color: red;
+}

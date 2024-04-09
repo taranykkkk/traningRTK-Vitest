@@ -1,0 +1,30 @@
+:root {
+  --color-black-darken: rgb(0, 0, 0);
+  --color-black-light: rgb(22, 22, 22);
+  --color-turquoise-darken: #296677;
+  --color-turquoise-light: #61dafb;
+  --color-disabled: rgb(36, 73, 85);
+
+  --spacing-medium: 15px;
+  --spacing-large: 30px;
+
+  --border-radius: 5px;
+  --box-shadow: 0 16px 24px 2px rgb(3 111 184 / 4%),
+    0 6px 30px 5px rgb(3 111 184 / 7%), 0 8px 10px -5px rgb(3 111 184 / 30%);
+  --box-shadow-unsuccess: 0px 0px 100px -25px rgba(255, 0, 21, 0.7);
+  --box-shadow-success: 0px 0px 100px -25px rgba(3, 247, 15, 0.7);
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: var(--spacing-large);
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: sans-serif;
+  background-color: var(--color-black-darken);
+}

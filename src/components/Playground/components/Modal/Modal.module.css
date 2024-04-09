@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(2px);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  background-color: var(--color-black-light);
+  outline: none;
+  border-radius: var(--border-radius);
+  padding: var(--spacing-large);
+}
+
+.modalSuccess {
+  box-shadow: var(--box-shadow-success);
+}
+.modalUnsuccess {
+  box-shadow: var(--box-shadow-unsuccess);
+}

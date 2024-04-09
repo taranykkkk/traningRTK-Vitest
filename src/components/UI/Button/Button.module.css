@@ -1,0 +1,23 @@
+.button {
+  min-width: 100px;
+  padding: 0 15px;
+  line-height: 36px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  background: none;
+  background-color: var(--color-turquoise-light);
+  color: var(--color-turquoise-darken);
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--color-turquoise-darken);
+  color: var(--color-turquoise-light);
+}
+
+.button:disabled {
+  background-color: var(--color-disabled);
+  color: var(--color-turquoise-light);
+  opacity: 0.6;
+}
